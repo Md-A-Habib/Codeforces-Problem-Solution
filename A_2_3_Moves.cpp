@@ -10,4 +10,8 @@ int main(){
             cout << (n+2)/3 << endl;
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 52ad09ff77dfe0bb6f1ad95d5b33dac44e2b9386

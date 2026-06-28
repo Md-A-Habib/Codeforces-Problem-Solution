@@ -11,7 +11,10 @@ int main(){
         for(int j=0; j<n; j++){
             cin>> a[j];
         }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 52ad09ff77dfe0bb6f1ad95d5b33dac44e2b9386
         int mx=*max_element(a,a+n);
 
         int c=0;
@@ -22,4 +25,8 @@ int main(){
         }
         cout << c<< endl;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 52ad09ff77dfe0bb6f1ad95d5b33dac44e2b9386

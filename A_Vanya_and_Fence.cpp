@@ -12,4 +12,8 @@ int main(){
         else sum+=2;
     }
     cout << sum << endl;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 52ad09ff77dfe0bb6f1ad95d5b33dac44e2b9386

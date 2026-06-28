@@ -3,18 +3,30 @@ using namespace std;
 int main(){
     int t;
     cin>> t;
+<<<<<<< HEAD
+
+    for(int z=0; z<t; z++){
+        int n;
+        cin>> n;
+
+=======
  
     for(int z=0; z<t; z++){
         int n;
         cin>> n;
  
+>>>>>>> 52ad09ff77dfe0bb6f1ad95d5b33dac44e2b9386
         int a[n], c1=0, c2=0;
         for(int i=0; i<n; i++){
             cin>> a[i];
             if(a[i]==1) c1++;
             else c2++;
         }
+<<<<<<< HEAD
+
+=======
  
+>>>>>>> 52ad09ff77dfe0bb6f1ad95d5b33dac44e2b9386
         if((c1+c2*2)%2!=0){
             cout << "NO" << endl;
         }
@@ -24,4 +36,8 @@ int main(){
             cout << "YES"<< endl;
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 52ad09ff77dfe0bb6f1ad95d5b33dac44e2b9386

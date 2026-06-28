@@ -11,8 +11,13 @@ int main(){
     int sum=0;
 
     for(int i=0; i<n; i++){
+<<<<<<< HEAD
+        int x = a[i];
+        int y = b[i];
+=======
         int x = a[i]-'0';
         int y = b[i]-'0';
+>>>>>>> 52ad09ff77dfe0bb6f1ad95d5b33dac44e2b9386
 
         int sub=0, sub1 = 0;
 
@@ -37,4 +42,8 @@ int main(){
         }
     }
     cout << sum << endl;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 52ad09ff77dfe0bb6f1ad95d5b33dac44e2b9386
