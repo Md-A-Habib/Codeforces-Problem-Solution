@@ -1,11 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    long long t; cin>> t;
+    long long t; cin >> t;
     while (t--){
         long long x, y; cin>> x>> y;
-        
-        if(y/x == 20) cout << "NO" << endl;
-        else cout << "YES" << endl;
+        if(x%y == 0)cout << "YES" << endl;
+        else  cout << "NO" << endl;
     }
 }
